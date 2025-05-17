@@ -5,25 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agência de Viagem</title>
-    <link rel="stylesheet" href="Estilo.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
 
-<header>
+<header class="flex flex-col items-center justify-center py-6 bg-gray-100">
 
-    <h1 class="text-center flex ml-[40%] text-4xl font-bold"><img src="Palmeiras.png" alt="" width="35px"> Travel</h1>
-    
-    <div class="cabecalho">
+    <h1 class="flex items-center text-4xl font-bold mb-4">
 
-    <a href="" class="hover:bg-gray-500" style="text-decoration: none; color: black;" >Home</a>
-    <a href="" class="hover:bg-gray-500" style="text-decoration: none; color: black;" >Tour List</a>
-    <a href="" class="hover:bg-gray-500" style="text-decoration: none; color: black;" >Destinations</a>
-    <a href="" class="hover:bg-gray-500" style="text-decoration: none; color: black;" >Discounts</a>
+        <img src="Palmeiras.png" alt="Logo" class="w-9 h-9 mr-2" />
+        Travel
 
-    </div>
+    </h1>
+  
+    <nav class="flex flex-wrap justify-center gap-6">
+
+        <a href="#" class="hover:bg-gray-500 px-3 py-2 rounded text-black no-underline transition">Home</a>
+        <a href="#" class="hover:bg-gray-500 px-3 py-2 rounded text-black no-underline transition">Tour List</a>
+        <a href="#" class="hover:bg-gray-500 px-3 py-2 rounded text-black no-underline transition">Destinations</a>
+        <a href="#" class="hover:bg-gray-500 px-3 py-2 rounded text-black no-underline transition">Discounts</a>
+
+    </nav>
 
 </header>
+
 <body>
 
     <div class="bg-[#FF6403] w-full h-[600px] mx-auto">
